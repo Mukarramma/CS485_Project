@@ -1,0 +1,78 @@
+body{
+	background-color: black;
+}
+
+.logo{
+	margin-left: 100px;
+	color:white;
+}
+
+#searchbar{
+	float: right;
+}
+
+.navul{
+	list-style-type: none;
+	margin: 50px;
+	border: 25px;
+	background-color: #262626;
+	overflow: hidden;
+}
+
+.navli{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px 24px;
+	font-style: italic;
+	font-size: 20px
+}
+
+li a:hover{
+	background-color: gray;
+}
+
+.backdrop{
+	background-color: gray;
+	margin: 50px;
+	border: 25px;
+	padding: 25px;
+}
+
+.centerdiv{
+	display:block;
+	text-align: center;
+}
+
+#centerform{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#formheader{
+	text-align: center;
+	color:white;
+}
+
+p{
+	font-size:20px;
+}
+
+#raids{
+	font-size:18px;
+}
+
+table, th, td {
+	border-spacing: 15px 0px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:30px;
+    margin:25px;
+}
